@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:26/09/2025
+## Register Number:25017613
+## Name:Dhivya Dharshini P
 ## Problem Title
 SIH 25010: Smart Crop Advisory System for Small and Marginal Farmers
 ## Problem Description
@@ -13,13 +13,19 @@ Helping small farmers make informed decisions can significantly increase product
 
 Expected Outcomes
 
-• A multilingual, AI-based mobile app or chatbot that provides real-time, location-specific crop advisory.
-• Soil health recommendations and fertilizer guidance.
-• Weather-based alerts and predictive insights.
-• Pest/disease detection via image uploads.
-• Market price tracking.
-• Voice support for low-literate users.
-• Feedback and usage data collection for continuous improvement.
+• A multilingual, AI-based mobile app or chatbot that provides real-time, location-specific crop advisory
+
+• Soil health recommendations and fertilizer guidance
+
+• Weather-based alerts and predictive insights
+
+• Pest/disease detection via image uploads
+
+• Market price tracking
+
+• Voice support for low-literate users
+
+• Feedback and usage data collection for continuous improvement
 
 Relevant Stakeholders / Beneficiaries
 
@@ -41,28 +47,75 @@ Government of Punjab
 Agriculture, FoodTech & Rural Development
 
 ## Proposed Solution
-<h3>Remove These Lines</h3>
-<ul><li>Detailed explanation of the proposed solution</li>
-<li>How it addresses the problem</li>
-<li>Innovation and uniqueness of the solution</li></ul>
 
+Farmers will use a mobile app or chatbot that works in their own local language
+The app will give farmers information about:
+
+• Which crop to grow
+
+• Soil health and fertilizer use
+
+• Weather updates
+
+• Pest and disease control
+
+• Market prices
+
+The app will talk to farmers in voice so even those who cannot read or write can use it easily
+The system will use smart AI technology to:
+Guess the best crop for higher yield
+Find diseases in crops using photos
+Suggest the best farming practices to increase income and reduce costs.
 ## Technical Approach
-<h3>Remove These Lines</h3>
-<ul><li>Technologies to be used (e.g. programming languages, frameworks, hardware)
-</li>
-<li>Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b></li></ul>
+Frontend - html,css,javascript
+
+Backend  - Django (Python) or Node.js (JavaScript)
+
+Database - PostgreSQL or MySQL
+
+AI/ML Models
+
+Language Support
+
+Cloud Hosting- AWS / Google Cloud / Azure
+
+## Methodology / Process Flow
+
+Farmer logs in (selects language)
+Provides soil, crop, or photo input
+System fetches weather + soil + market data
+AI engine processes inputs → generates advisory
+Farmer receives recommendations via text, voice, or chatbot
+Feedback stored → model retrains for better accuracy
+<img width="1071" height="501" alt="Screenshot (37)" src="https://github.com/user-attachments/assets/48da84c1-83ae-4527-824e-252655909746" />
 
 ## Feasibility and Viability
-<h3>Remove These Lines</h3>
-<ul><li>Analysis of the feasibility of the idea</li>
-<li>Potential challenges and risks</li>
-<li>Strategies for overcoming these challenges</li></ul>
+
+Challenges & Risks:
+
+Farmers may lack digital literacy
+
+Internet connectivity issues in villages
+
+Accuracy of AI predictions
+
+Solutions:
+
+Voice-first design 
+
+Offline mode 
+
+model training with farmer feedback
 
 ## Impact and Benefits
-<h3>Remove These Lines</h3>
-<ul><li>Potential impact on the target audience</li>
-<li>Benefits of the solution (social, economic, environmental, etc.)</li></ul>
+
+Social: Empower farmers, reduce dependency on shopkeepers
+
+Economic: Higher yield ,lower input costs
+
+Environmental:Reduced chemical overuse, sustainable practices
 
 ## Research and References
-<h3>Remove These Lines</h3>
-<ul><li>Details / Links of the reference and research work</li></ul>
+NABARD Report 2022 (86% farmers are small/marginal)
+
+ICT-based advisories increasing yield by 20–30%
